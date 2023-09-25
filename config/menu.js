@@ -1,6 +1,6 @@
 export default [
   {
-    path: '/#onas',
+    path: '/onas',
     name: 'O nas'
   },
   {
@@ -8,7 +8,7 @@ export default [
     name: 'Oferta'
   },
   {
-    path: '/#kontakt',
+    path: '/kontakt',
     name: 'Kontakt'
   },
 ]
