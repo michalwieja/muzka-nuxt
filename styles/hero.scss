@@ -1,0 +1,52 @@
+.hero {
+  height: 100vh;
+  padding-top: $headerHeight;
+  background-image: url("~assets/img/hero-img.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: '';
+    inset: 0;
+    background: $primaryBlue;
+    opacity: .2;
+  }
+
+  .wrapper {
+    height: 100%;
+
+    h1 {
+      font-size: 60px;
+      font-weight: 600;
+
+    }
+
+    h2 {
+      font-size: 30px;
+      line-height: 3;
+      font-weight: 500;
+    }
+
+    h1,
+    h2 {
+      position: relative;
+      top: 50%;
+      color: white;
+      left: 0;
+
+    }
+
+    @media (max-width: $break-900) {
+      h1 {
+        font-size: 40px;
+      }
+
+      h2 {
+        font-size: 20px;
+      }
+    }
+
+  }
+}
