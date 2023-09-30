@@ -1,9 +1,7 @@
 <template>
   <div>
-    <Hero />
-    <div>
-      sekcja 1
-    </div>
+    <!-- <Hero /> -->
+    <About />
     <div>
       sekcja 2
     </div>
