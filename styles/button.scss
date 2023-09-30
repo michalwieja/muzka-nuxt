@@ -1,0 +1,19 @@
+.button {
+    background-color: $primaryBlue;
+    color: white;
+    border-radius: 40px;
+    padding: 16px 32px;
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 2px;
+    white-space: nowrap;
+    transition: .3s;
+
+    &:hover {
+        background-color: $darkBlue;
+    }
+}

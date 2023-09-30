@@ -4,6 +4,8 @@
 @import "footer";
 @import "header";
 @import "fullWidthSplitScreen";
+@import "button";
+@import "link";
 
 
 * {
@@ -29,18 +31,15 @@ html {
 
 
 .wrapper {
-  max-width: var(--wrapper-max-width);
+  max-width: 1380px;
   margin-inline: auto;
-  padding-inline: var(--wrapper-padding-inline);
+  padding-inline: 16px;
 }
 
 img {
   max-width: 100%;
   display: block;
 }
-
-
-
 
 //scrollbar
 *::-webkit-scrollbar-track {

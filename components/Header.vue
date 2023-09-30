@@ -13,12 +13,6 @@
               {{ link.name }}
             </NuxtLink>
           </div>
-          <NuxtLink class="no-border" to="#rekrutacja-ktw">
-            <CustomButton :handle-click="() => navActive = false" label="Rekrutacja Katowice" />
-          </NuxtLink>
-          <NuxtLink class="no-border" to="#rekrutacja-krk">
-            <CustomButton :handle-click="() => navActive = false" label="Rekrutacja Kraków" />
-          </NuxtLink>
         </div>
         <div :class="{ toggle: navActive }" class="burger" @click="handleBurgerClick">
           <div class="burger__line" />

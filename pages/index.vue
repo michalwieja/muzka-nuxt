@@ -1,10 +1,8 @@
 <template>
   <div>
-    <!-- <Hero /> -->
+    <Hero />
     <About />
-    <div>
-      sekcja 2
-    </div>
+    <!-- <About /> -->
   </div>
 </template>
 
