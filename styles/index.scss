@@ -6,9 +6,8 @@
 @import "fullWidthSplitScreen";
 @import "button";
 @import "link";
+@import "offer";
 @import "musicTheraphy";
-
-
 
 * {
   margin: 0;
@@ -22,7 +21,6 @@ body {
   overflow-x: hidden;
 }
 
-
 html {
   scroll-behavior: smooth;
 }
@@ -30,7 +28,6 @@ html {
 .playfair {
   font-family: 'Playfair Display', serif;
 }
-
 
 .wrapper {
   max-width: 1380px;

@@ -1,5 +1,5 @@
 <template>
-  <NuxtLink to="/onas" class="link">
+  <NuxtLink :to="link" :class="['link', variant]">
     {{ `${label} >` }}
   </NuxtLink>
 </template>
@@ -11,6 +11,12 @@ export default {
     label: {
       type: String
     },
+    link: {
+      type: String
+    },
+    variant: {
+      type: String
+    }
   }
 }
 </script>
