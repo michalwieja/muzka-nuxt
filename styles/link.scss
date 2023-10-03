@@ -1,0 +1,15 @@
+.link {
+  all: unset;
+  color: $primaryBlue;
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: bold;
+
+  &:hover {
+    color: $darkBlue;
+  }
+
+  &.white {
+    color: white
+  }
+}

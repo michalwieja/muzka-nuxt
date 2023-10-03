@@ -1,12 +1,9 @@
 <template>
   <div>
     <Hero />
-    <div>
-      sekcja 1
-    </div>
-    <div>
-      sekcja 2
-    </div>
+    <About />
+    <MusicTheraphy />
+    <Offer />
   </div>
 </template>
 
