@@ -1,7 +1,7 @@
 <template>
-  <header :class="{ 'active': scrollPos > 0 }" class="header">
+  <header :class="{ 'active': scrollPos > 0 || isActiveRoute }" class="header">
     <div class="wrapper">
-      <div class="logo">
+      <div class="logo" @click="navActive = false">
         <NuxtLink to="/">
           <img class="logo-img" src="~/assets/img/logo.png">
         </NuxtLink>
@@ -41,6 +41,11 @@ export default {
       scrollPos: 0,
       navActive: false
     }
+  },
+  computed: {
+    isActiveRoute() {
+      return this.$route.path === '/onas' || this.$route.path === '/kontakt';
+    },
   },
 
   destroyed() {
