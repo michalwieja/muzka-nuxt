@@ -17,14 +17,14 @@
     gap: 2rem;
 
     .slogan {
-      font-size: 2rem;
+      font-size: 2.5rem;
       font-weight: bold;
       color: $primaryBlue;
       width: 90%;
     }
 
     .text {
-      font-size: 1.5rem;
+      font-size: 2rem;
       width: 90%;
     }
   }
@@ -82,15 +82,11 @@
       .left {
         margin-bottom: 5vh;
 
-        .slogan {
-          font-size: 1.5rem;
+        .slogan,
+        .text {
           width: 100%;
         }
 
-        .text {
-          font-size: 1.25rem;
-          width: 100%;
-        }
       }
 
       .right {
@@ -104,14 +100,9 @@
           left: -50vw;
         }
 
-        .title {
-          width: 100%;
-          font-size: 1.75rem;
-        }
-
+        .title,
         .list {
           width: 100%;
-          font-size: 1.25rem;
         }
       }
     }
