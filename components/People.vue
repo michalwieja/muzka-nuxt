@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="people">
     <div class="wrapper">
       <div class="foto">
         <div class="img">

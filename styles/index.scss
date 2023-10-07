@@ -1,6 +1,6 @@
 @import "variables";
 @import "hero";
-@import "about";
+@import "people";
 @import "header";
 @import "fullWidthSplitScreen";
 @import "button";
@@ -8,11 +8,13 @@
 @import "offer";
 @import "musicTheraphy";
 @import "contact";
+@import "about";
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-margin-top: 5vh;
 }
 
 body {
@@ -50,6 +52,41 @@ html {
 img {
   max-width: 100%;
   display: block;
+}
+
+.heading {
+  font-size: 3rem;
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+
+  &::before {
+    position: absolute;
+    content: '';
+    left: 1rem;
+    right: 1rem;
+    height: .75rem;
+    background-color: $primaryBlue;
+    top: 110%;
+  }
+}
+
+.h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: $primaryBlue;
+}
+
+.h2 {
+  font-size: 2.25rem;
+  color: white;
+  font-weight: bold;
+}
+
+.blue-bg {
+  background-color: $primaryBlue;
+  color: white
 }
 
 //scrollbar

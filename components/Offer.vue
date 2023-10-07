@@ -1,8 +1,8 @@
 <template>
-  <div class="offer">
+  <div class="offer" id="oferta">
     <div class="wrapper">
       <div class="title-wrapper">
-        <div class="title">
+        <div class="heading">
           Nasza oferta
         </div>
       </div>

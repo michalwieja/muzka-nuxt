@@ -1,6 +1,5 @@
 .offer {
   padding-top: $headerHeight;
-  padding-bottom: 12rem;
 
   @media (max-width: $break-900) {
     padding-top: 5vh;
@@ -8,23 +7,6 @@
 
   .title-wrapper {
     text-align: center;
-  }
-
-  .title {
-    font-size: 3rem;
-    font-weight: bold;
-    position: relative;
-    display: inline-block;
-
-    &::before {
-      position: absolute;
-      content: '';
-      left: 1rem;
-      right: 1rem;
-      height: .75rem;
-      background-color: $primaryBlue;
-      top: 110%;
-    }
   }
 
   .cards {

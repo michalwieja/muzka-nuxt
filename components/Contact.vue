@@ -8,10 +8,12 @@
         <div class="content">
           <div class="socials">
             <div class="social fb">
-              <FbIcon /> <a href="https://www.facebook.com/MuzKaMuzykoterapia" target="_blank">facebook/muzka</a>
+              <FbIcon /> <a href="https://www.facebook.com/MuzKaMuzykoterapia"
+                target="_blank">facebook/MuzKaMuzykoterapia</a>
             </div>
             <div class="social ig">
-              <IgIcon /> <a href="https://www.instagram.com/muzkamuzykoterapia/" target="_blank">facebook/muzka</a>
+              <IgIcon /> <a href="https://www.instagram.com/muzkamuzykoterapia/"
+                target="_blank">instagram/muzkamuzykoterapia</a>
             </div>
             <div class="social phone">
               <PhoneIcon /> <a href="tel:+48 666 059 078">+48 666 059 078</a>
@@ -51,7 +53,7 @@ export default {
     EmailIcon,
     AddressIcon
   },
-  name: 'Footer',
+  name: 'Contact',
   data() {
     return {
       currentDate: new Date()

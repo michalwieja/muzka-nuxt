@@ -1,7 +1,7 @@
 <template>
   <div>
     <Hero />
-    <About />
+    <People />
     <MusicTheraphy />
     <Offer />
   </div>
