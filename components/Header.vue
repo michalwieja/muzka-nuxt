@@ -44,9 +44,12 @@ export default {
   },
   computed: {
     isActiveRoute() {
-      return this.$route.path === '/onas' || this.$route.path === '/kontakt';
+      console.log(this.$route.path);
+      const activeRoutes = ['/onas', '/kontakt', '/muzykoterapia'];
+      return activeRoutes.includes(this.$route.path);
     },
   },
+
 
   destroyed() {
     window.removeEventListener('scroll', this.handleScroll)

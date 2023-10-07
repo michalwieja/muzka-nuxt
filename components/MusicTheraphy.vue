@@ -11,7 +11,9 @@
           pracujemy nad rozwojem społecznym, emocjonalnym, komunikacyjnym, poznawczym oraz ruchowym
         </div>
         <div>
-          <Button label="Co to jest muzykoterapia?"></Button>
+          <NuxtLink to="/muzykoterapia">
+            <Button label="Co to jest muzykoterapia?"></Button>
+          </NuxtLink>
         </div>
       </div>
       <div class="right">

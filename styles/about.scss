@@ -24,6 +24,12 @@
         color: $gray
       }
 
+      .bold {
+        padding-top: 1rem;
+        font-weight: bold;
+        color: $black;
+      }
+
       .photo {
         height: 100%;
         display: flex;
@@ -32,7 +38,6 @@
       }
 
       .img-wrapper {
-        background: #000;
         width: 30vw;
         height: 30vw;
         border-radius: 50%;
@@ -53,6 +58,10 @@
         background-size: cover;
         position: relative;
         background-position: center;
+      }
+
+      .img.muzka_1 {
+        background-image: url("~assets/img/muzka_1.jpg");
       }
     }
   }
