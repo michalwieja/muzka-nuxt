@@ -6,6 +6,8 @@
 
   @media (max-width: $break-1200) {
     height: auto;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
   }
 
   &::after {
@@ -22,7 +24,7 @@
     display: flex;
     height: 100%;
     position: relative;
-    gap: 16px;
+    gap: 1rem;
 
     @media (max-width: $break-900) {
       flex-direction: column;
@@ -90,32 +92,16 @@
 
   .content {
     flex: 1;
-    font-size: 32px;
+    font-size: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 16px;
-
-    @media (max-width: $break-1200) {
-      font-size: 28px;
-    }
-
-    @media (max-width: $break-900) {
-      font-size: 24px;
-    }
+    gap: 1rem;
 
     .title {
-      font-size: 60px;
+      font-size: 3rem;
       font-weight: bold;
       color: $darkBlue;
-
-      @media (max-width: $break-1200) {
-        font-size: 50px;
-      }
-
-      @media (max-width: $break-900) {
-        font-size: 40px;
-      }
     }
   }
 }

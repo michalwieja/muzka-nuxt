@@ -23,6 +23,18 @@ body {
 
 html {
   scroll-behavior: smooth;
+
+  @media(max-width: $break-1200) {
+    font-size: 14px;
+  }
+
+  @media(max-width: $break-900) {
+    font-size: 12px;
+  }
+
+  @media(max-width: $break-600) {
+    font-size: 10px;
+  }
 }
 
 .playfair {

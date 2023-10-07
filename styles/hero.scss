@@ -19,13 +19,12 @@
     height: 100%;
 
     h1 {
-      font-size: 60px;
+      font-size: 4rem;
       font-weight: 600;
-
     }
 
     h2 {
-      font-size: 30px;
+      font-size: 2rem;
       line-height: 3;
       font-weight: 500;
     }
@@ -36,18 +35,6 @@
       top: 50%;
       color: white;
       left: 0;
-
     }
-
-    @media (max-width: $break-900) {
-      h1 {
-        font-size: 40px;
-      }
-
-      h2 {
-        font-size: 20px;
-      }
-    }
-
   }
 }
