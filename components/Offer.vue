@@ -2,13 +2,13 @@
   <div class="offer" id="oferta">
     <div class="wrapper">
       <div class="title-wrapper">
-        <div class="heading">
+        <div class="heading" data-aos="fade-in">
           Nasza oferta
         </div>
       </div>
       <div class="cards">
-        <div class="card" v-for="offer in offerList">
-          <div class="card-photo">
+        <div class="card" v-for="(offer, index) in offerList">
+          <div class="card-photo" data-aos="fade-in" :data-aos-delay="isMobile ? 100 : index * 200">
             <img :alt="offer.title" :src="`/oferta/${offer.photo}`" />
           </div>
           <div class=" card-content">
@@ -38,6 +38,8 @@ export default {
   data() {
     return {
       offerList: offerList,
+      isMobile: window.innerWidth <= 1200,
+
     }
   },
 }

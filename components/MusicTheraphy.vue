@@ -1,5 +1,5 @@
 <template>
-  <div class="music-theraphy">
+  <div class="music-theraphy" data-aos="fade-in" data-aos-delay="400">
     <div class="wrapper">
       <div class="left">
         <div class="slogan">
