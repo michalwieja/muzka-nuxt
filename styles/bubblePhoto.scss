@@ -1,0 +1,58 @@
+.bubble-photo {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  .img {
+    background-image: url("~assets/img/people.jpg");
+    background-size: cover;
+    height: 30vw;
+    width: 30vw;
+    border-radius: 50%;
+    max-width: 500px;
+    max-height: 500px;
+    position: relative;
+
+    @media (max-width: $break-900) {
+      height: 90vw;
+      width: 90vw;
+    }
+
+    .bubble {
+      background: #000;
+      width: 50%;
+      height: 50%;
+      position: absolute;
+      border-radius: 50%;
+      z-index: -1;
+      background: $primaryBlue;
+
+      &__one {
+        top: -7%;
+        width: 35%;
+        height: 35%;
+        aspect-ratio: 1;
+      }
+
+      &__two {
+        background: $primaryOrange;
+        opacity: 50%;
+        left: -10%;
+        width: 24%;
+        height: 24%;
+        top: 18%;
+        aspect-ratio: 1;
+      }
+
+      &__three {
+        bottom: 0;
+        right: 0;
+        width: 20%;
+        height: 20%;
+        aspect-ratio: 1;
+      }
+    }
+  }
+}

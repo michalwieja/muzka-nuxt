@@ -22,7 +22,9 @@
             <Button label="Zapisz się" />
           </div>
         </div>
-        <div class="photo">foto</div>
+        <div class="photo">
+          <BubblePhoto img="muzka_3.jpg" />
+        </div>
       </div>
     </div>
     <div class="wrapper">

@@ -9,6 +9,11 @@
 
     .wrapper {
       display: flex;
+
+      @media (max-width: $break-1200) {
+        flex-direction: column;
+        gap: 4rem;
+      }
     }
 
     &:before {
@@ -53,6 +58,14 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
 
+    @media (max-width: $break-1200) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width: $break-600) {
+      grid-template-columns: 1fr;
+    }
+
   }
 
   .card {
@@ -77,16 +90,22 @@
     margin-top: 5vh;
     border-radius: 1rem;
     box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.26);
-    padding: 2rem 1rem;
+    padding: 2rem 1rem 5rem 1rem;
     display: flex;
     position: relative;
 
     svg path {
       fill: rgba(217, 217, 217, 0.52);
+
+
     }
 
     .note {
       padding-inline: 6rem;
+
+      @media (max-width: $break-1200) {
+        display: none;
+      }
     }
 
     .info {
@@ -129,6 +148,18 @@
       position: absolute;
       bottom: -1.75rem;
       right: 3rem;
+    }
+  }
+
+  .additional {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 10vh;
+
+    .text {
+      color: $gray;
+      font-size: 1.25rem;
     }
   }
 }
