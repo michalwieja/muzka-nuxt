@@ -157,4 +157,26 @@
       font-size: 1.25rem;
     }
   }
+
+  .list {
+    padding-top: 2rem;
+    font-size: 1.5rem;
+
+    ul {
+      padding-inline-start: 2rem;
+      padding-top: 2rem;
+    }
+
+    li {
+      color: $softOrange;
+
+      span {
+        color: $gray;
+      }
+    }
+
+    li:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+  }
 }

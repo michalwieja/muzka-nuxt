@@ -44,7 +44,7 @@ export default {
   },
   computed: {
     isActiveRoute() {
-      const activeRoutes = ['/onas', '/kontakt', '/muzykoterapia', '/muzykoterapia-indywidualna', '/muzykoterapia-grupowa', '/zajecia-oraz-warsztaty'];
+      const activeRoutes = ['/onas', '/kontakt', '/muzykoterapia', '/muzykoterapia-indywidualna', '/muzykoterapia-grupowa', '/zajecia-oraz-warsztaty', '/muzyczny-krag-kobiet', '/rodzinne-muzykowania'];
       return activeRoutes.includes(this.$route.path);
     },
   },
