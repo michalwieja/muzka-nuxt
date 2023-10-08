@@ -1,0 +1,134 @@
+.event {
+  padding-top: $headerHeight;
+  margin-top: 5vh;
+
+  .main {
+    padding-bottom: 10vh;
+    position: relative;
+    margin-bottom: 5vh;
+
+    .wrapper {
+      display: flex;
+    }
+
+    &:before {
+      position: absolute;
+      content: '';
+      inset: 0;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(217, 217, 217, 1) 100%);
+      z-index: -1;
+    }
+  }
+
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: $primaryBlue
+  }
+
+  .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    .subtitle {
+      font-size: 1.5rem;
+    }
+
+    .text {
+      color: $gray;
+      font-size: 1.25rem;
+    }
+  }
+
+  .photo {
+    flex: 1;
+  }
+
+
+  .cards {
+    margin-top: 5vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+
+  }
+
+  .card {
+    background: $primaryBlue;
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+    color: white;
+    font-size: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+
+    svg {
+      align-self: center;
+      height: 4rem;
+      width: 4rem;
+    }
+  }
+
+  .sign {
+    margin-top: 5vh;
+    border-radius: 1rem;
+    box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.26);
+    padding: 2rem 1rem;
+    display: flex;
+    position: relative;
+
+    svg path {
+      fill: rgba(217, 217, 217, 0.52);
+    }
+
+    .note {
+      padding-inline: 6rem;
+    }
+
+    .info {
+      display: flex;
+      gap: 3rem;
+      padding-top: 2rem;
+
+      .col {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+      }
+
+      .row {
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+      }
+
+      .label {
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+
+      .value {
+        font-weight: bold;
+        text-transform: uppercase;
+        color: $primaryOrange;
+      }
+    }
+
+    .subtitle {
+      padding-top: 1rem;
+      font-weight: bold;
+      color: $gray;
+    }
+
+
+    .button-wrapper {
+      position: absolute;
+      bottom: -1.75rem;
+      right: 3rem;
+    }
+  }
+}

@@ -9,12 +9,14 @@
 @import "musicTheraphy";
 @import "contact";
 @import "about";
+@import "event";
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   scroll-margin-top: 5vh;
+  line-height: 1.25;
 }
 
 body {
