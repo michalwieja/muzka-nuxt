@@ -51,7 +51,6 @@
     flex: 1;
   }
 
-
   .cards {
     margin-top: 5vh;
     display: grid;
@@ -65,7 +64,6 @@
     @media (max-width: $break-600) {
       grid-template-columns: 1fr;
     }
-
   }
 
   .card {
@@ -96,8 +94,6 @@
 
     svg path {
       fill: rgba(217, 217, 217, 0.52);
-
-
     }
 
     .note {
@@ -142,7 +138,6 @@
       font-weight: bold;
       color: $gray;
     }
-
 
     .button-wrapper {
       position: absolute;

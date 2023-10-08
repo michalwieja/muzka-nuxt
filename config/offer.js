@@ -20,7 +20,7 @@ export default [
   {
     title: "MUZYCZNY KRĄG KOBIET",
     photo: '4.jpg',
-    link: 'muzyczny-krąg-kobiet'
+    link: 'muzyczny-krag-kobiet'
   },
   {
     title: "MUZYCZNA GRUPA DLA RODZICÓW",
