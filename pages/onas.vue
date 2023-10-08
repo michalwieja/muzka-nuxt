@@ -3,7 +3,7 @@
     <div class="wrapper">
       <div class="columns">
         <div class="column">
-          <div class="h1">O nas</div>
+          <div class="h1" data-aos="fade-in">O nas</div>
           <div class="text">MuzKa to miejsce założone w 2016 roku, które jako pierwsze wprowadziło terapię muzyczną dla
             dzieci, młodzieży, dorosłych i starszych. Jest to miejsce, gdzie jest prowadzona profesjonalna muzykoterapia
             indywidualna i grupowa. Prowadzone są warsztaty i szkolenia z zakresu muzykoterapii i jej oddziaływań. Jako
@@ -21,7 +21,7 @@
         </div>
       </div>
     </div>
-    <div class="blue-bg">
+    <div class="blue-bg" data-aos="fade-in">
       <div class="wrapper">
         <div class="h2">
           STRUKTURA ZAJĘĆ OPARTYCH NA MUZYKOTERAPII
@@ -75,7 +75,7 @@
         </ul>
       </div>
     </div>
-    <div class="team">
+    <div class="team" data-aos="fade-in">
       <div class="wrapper">
         <div class="heading">Nasz zespół</div>
         <div class="members">

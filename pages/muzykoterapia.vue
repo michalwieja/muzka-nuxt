@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <div class="wrapper">
+    <div class="wrapper" data-aos="fade-in">
       <div class="columns">
         <div class="column">
           <div class="h1">CZYM JEST MUZYKOTERAPIA?</div>
@@ -31,7 +31,7 @@
         </div>
       </div>
     </div>
-    <div class="blue-bg">
+    <div class="blue-bg" data-aos="fade-in">
       <div class="wrapper">
         <div class="h2">
           CELE MUZYKOTERAPII

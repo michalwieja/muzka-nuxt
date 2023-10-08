@@ -8,7 +8,7 @@
       </div>
       <div class="cards">
         <div class="card" v-for="(offer, index) in offerList">
-          <div class="card-photo" data-aos="fade-in" :data-aos-delay="isMobile ? 100 : index * 200">
+          <div class="card-photo" data-aos="fade-in" :data-aos-delay="isMobile ? 100 : index * 100">
             <img :alt="offer.title" :src="`/oferta/${offer.photo}`" />
           </div>
           <div class=" card-content">
