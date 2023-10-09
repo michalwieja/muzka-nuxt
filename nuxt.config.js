@@ -17,9 +17,39 @@ export default {
     },
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      {
+        name: 'viewport',
+        content: 'width=device-width, initial-scale=1'
+      },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'MuzKa to pierwsze miejsce, gdzie jest prowadzona profesjonalna muzykoterapia indywidualna i grupowa'
+      },
+      {
+        name: 'format-detection',
+        content: 'telephone=no'
+      },
+      {
+        hid: 'og:type',
+        property: 'og:type',
+        content: 'website'
+      },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: 'MuzKa - Profesjonalna muzykoterapia dla osób w każdym wieku'
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content: 'MuzKa to pierwsze miejsce, gdzie jest prowadzona profesjonalna muzykoterapia indywidualna i grupowa'
+      },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: '/image1200x630.jpg'
+      }
     ],
     link: [
       {
