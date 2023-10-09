@@ -4,10 +4,10 @@
     <div class="main">
       <div class="wrapper">
         <div class="content">
-          <div class="title">
+          <div class="title" data-aos="fade-in">
             MUZYCZNY KRĄG KOBIET
           </div>
-          <div class="text">
+          <div class="text" data-aos="fade-in">
             W natłoku codziennych spraw, stresującej pracy, licznych obowiązków i myślenia o innych, nadchodzi moment
             zmęczenia, przeciążenia. Coraz rzadziej doświadczamy wtedy radości i lekkości, a dominują nad nami ciemne
             myśli, niezadowolenie, napięcie w ciele, czasem ból. Odczucia te blokują nas, nasze działanie. Chroniczne
@@ -17,17 +17,17 @@
             przestrzeni, aby zaopiekować się sobą i wrócić do siebie. Wtedy dopiero możemy sięgnąć do naszego
             wewnętrznego potencjału kobiety. Taką właśnie okazję może dostarczyć Muzyczny Krąg Kobiet.
           </div>
-          <div class="button-wrapper">
+          <div class="button-wrapper" data-aos="fade-in">
             <Button label="Zapisz się" />
           </div>
         </div>
-        <div class="photo">
+        <div class="photo" data-aos="fade-in">
           <BubblePhoto img="muzka_4.jpg" />
         </div>
       </div>
     </div>
     <div class="wrapper">
-      <div class="sign">
+      <div class="sign" data-aos="fade-in">
         <div class="text">
           <div class="title">
             MUZYCZNY KRĄG KOBIET

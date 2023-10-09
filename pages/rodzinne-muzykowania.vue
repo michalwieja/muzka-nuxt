@@ -1,17 +1,16 @@
-
 <template>
   <div class="event">
     <div class="main">
       <div class="wrapper">
         <div class="content">
-          <div class="title">
+          <div class="title" data-aos="fade-in">
             RODZINNE MUZYKOWANIA w sobotę
           </div>
-          <div class="text">
+          <div class="text" data-aos="fade-in">
             Są to zajęcia muzyczne dla rodziny. Celem zajęć jest uatrakcyjnienie rodzinnego czasu w miejscu, gdzie można
             śpiewać, grać na wielu instrumentach (dużych i małych), wspólnie muzykować i dobrze się razem bawić.
           </div>
-          <div class="text">
+          <div class="text" data-aos="fade-in">
             Pragniemy, aby nasze wydarzenie miało charakter rodzinny, ponieważ zależy nam na budowaniu dobrych więzi i
             relacji rodzinnych, właśnie za pomocą muzyki.  Dlatego na zajęciach będzie tylko WASZA rodzina i najbliżsi.
             Dla dzieci jak i dla rodziców będzie to sposób na spędzenie ze sobą czasu w inny, ciekawy, twórczy sposób.
@@ -21,24 +20,24 @@
             przyjaciele itd. Możecie wziąć ze sobą kogo chcecie Nie ma ograniczeń wiekowych. W tych zajęciach może wziąć
             każdy udział.
           </div>
-          <div class="subtitle">
+          <div class="subtitle" data-aos="fade-in">
             Nie ma to jak twórcze wielopokoleniowe zajęcia!
           </div>
           <div class="button-wrapper">
             <Button label="Zapisz się" />
           </div>
         </div>
-        <div class="photo">
+        <div class="photo" data-aos="fade-in">
           <BubblePhoto img="muzka_5.jpg" />
         </div>
       </div>
     </div>
     <div class="wrapper">
       <div class="list">
-        <div class="title">
+        <div class="title" data-aos="fade-in">
           NA ZAJĘCIACH BĘDZIEMY:
         </div>
-        <ul>
+        <ul data-aos="fade-in">
           <li>
             <span>uczestniczyć w różnych doświadczeniach muzycznych, które nas rozluźnia i wprawią w nas dobry
               humor!
@@ -56,7 +55,7 @@
           </li>
         </ul>
       </div>
-      <div class="sign">
+      <div class="sign" data-aos="fade-in">
         <div class="text">
           <div class="title">
             RODZINNE MUZYKOWANIA w sobotę
@@ -81,7 +80,6 @@
                 <div class="label">Koszt</div>
                 <div class="value">130 zł</div>
               </div>
-
             </div>
           </div>
         </div>

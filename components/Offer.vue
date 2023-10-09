@@ -13,12 +13,12 @@
           </div>
           <div class=" card-content">
             <div class="card-title">
-              <span>
+              <div>
                 {{ offer.title }}
-              </span>
-              <span v-if="offer.subtitle">
+              </div>
+              <div v-if="offer.subtitle">
                 {{ offer.subtitle }}
-              </span>
+              </div>
             </div>
             <div class="cardlink" v-if="offer.link">
               <Link label="więcej" :link="offer.link" variant="white" />

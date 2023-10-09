@@ -2,8 +2,8 @@
   <div class="event">
     <div class="main">
       <div class="wrapper">
-        <div class="content">
-          <div class="title">
+        <div class="content"> 
+          <div class="title" data-aos="fade-in">
             MUZYKORERAPIA INDYWIDUALNA dla osób każdym wieku
           </div>
           <div class="text">
@@ -17,14 +17,13 @@
             <Button label="Zapisz się" />
           </div>
         </div>
-        <div class="photo">
+        <div class="photo" data-aos="fade-in">
           <BubblePhoto img="guitar.jpg" />
         </div>
       </div>
     </div>
     <div class="wrapper">
-
-      <div class="sign">
+      <div class="sign" data-aos="fade-in">
         <div class="text">
           <div class="title">
             MUZYKORERAPIA INDYWIDUALNA dla osób każdym wieku

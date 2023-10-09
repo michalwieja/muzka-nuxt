@@ -4,10 +4,10 @@
     <div class="main">
       <div class="wrapper">
         <div class="content">
-          <div class="title">
+          <div class="title" data-aos="fade-in">
             MUZKOLAKI Starszaki
           </div>
-          <div class="text">
+          <div class="text" data-aos="fade-in">
             Muzkolaki Starszaki - Muzyczna Zabawa dla Dzieci - to zajęcia muzyczno-ruchowe z elementami muzykoterapii.
             Zajęcia mają przede wszystkim wspierać dziecko w rozwoju dając mu przestrzeń na swobodne, twórcze działania.
             Zapewniamy dużą dawkę muzycznej ekspresji, śpiewania, grania na wielu instrumentach, duuuuużo muzycznych
@@ -22,13 +22,13 @@
             <Button label="Zapisz się" />
           </div>
         </div>
-        <div class="photo">
+        <div class="photo" data-aos="fade-in">
           <BubblePhoto img="guitar_2.jpg" />
         </div>
       </div>
     </div>
     <div class="wrapper">
-      <div class="sign">
+      <div class="sign" data-aos="fade-in">
         <div class="text">
           <div class="title">
             MUZKOLAKI Starszaki
@@ -70,10 +70,10 @@
         </div>
       </div>
       <div class="additional">
-        <div class="title">WARSZTATY INSTRUMENTALNE DLA DZIECI 7-9 lat
+        <div class="title" data-aos="fade-in">WARSZTATY INSTRUMENTALNE DLA DZIECI 7-9 lat
           ŚRODY O 18.15 CO DWA TYGODNIE
         </div>
-        <div class="text">
+        <div class="text" data-aos="fade-in">
           Muzyka ma w sobie bardzo duży potencjał społeczny i emocjonalny. Jak pisze norweski muzykoterapeuta Even Ruud;
           „bycie zaangażowanym w muzykę oznacza silniejsze poczucie tożsamości i stopniowe dążenie do poprawy swojej
           jakości
@@ -94,7 +94,7 @@
           znalezienie swojego miejsca w grupie oraz dostrzeżenie potencjału każdego członka grupy jako jednostki
           niezastąpionej.
         </div>
-        <div class="button-wrapper">
+        <div class="button-wrapper" data-aos="fade-in">
           <Button label="zapisze się!" />
         </div>
       </div>

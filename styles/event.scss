@@ -45,6 +45,12 @@
       color: $gray;
       font-size: 1.25rem;
     }
+
+    .button-wrapper {
+      @media(max-width: $break-900) {
+        padding-block: 3vh;
+      }
+    }
   }
 
   .photo {
@@ -155,6 +161,12 @@
     .text {
       color: $gray;
       font-size: 1.25rem;
+    }
+
+    .button-wrapper {
+      @media(max-width: $break-900) {
+        padding-block: 3vh;
+      }
     }
   }
 

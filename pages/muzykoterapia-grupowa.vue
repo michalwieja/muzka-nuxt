@@ -3,13 +3,13 @@
     <div class="main">
       <div class="wrapper">
         <div class="content">
-          <div class="title">
+          <div class="title" data-aos="fade-in">
             MUZYKOTERAPIA GRUPOWA DLA DZIECI Z NEURO RÓŻNORODNOŚCIĄ oraz z trudnościami społecznymi
           </div>
-          <div class="subtitle">
+          <div class="subtitle" data-aos="fade-in">
             Co to Muzykoterapia Grupowa dla dzieci 4-6
           </div>
-          <div class="text">
+          <div class="text" data-aos="fade-in">
             To działania poprzez aktywności muzyczne, które są skoncentrowane na uczestniku i na jego rozwoju. Główne
             założenia grupy opierają się na realizowaniu potrzeb uczestnika, dostrzeganiu i rozwijaniu jego zasobów,
             mocnych
@@ -22,16 +22,16 @@
             <Button label="Zapisz się" />
           </div>
         </div>
-        <div class="photo">
+        <div class="photo" data-aos="fade-in">
           <BubblePhoto img="muzka_3.jpg" />
         </div>
       </div>
     </div>
     <div class="wrapper">
-      <div class="title">
+      <div class="title" data-aos="fade-in">
         JAK TO WYGLĄDA I JAKI JEST CEL?
       </div>
-      <div class="cards">
+      <div class="cards" data-aos="fade-in">
         <div class="card">
           <BrainIcon />
           <div>
@@ -64,7 +64,7 @@
           </div>
         </div>
       </div>
-      <div class="sign">
+      <div class="sign" data-aos="fade-in">
         <div class="text">
           <div class="title">
             MUZYKOTERAPIA GRUPOWA DLA DZIECI Z NEURO RÓŻNORODNOŚCIĄ oraz z trudnościami społecznymi
